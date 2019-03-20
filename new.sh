@@ -14,18 +14,18 @@ echo
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo $i" |"$cy"     INDONESIA DARK TERMUX ASSOCIATE"$i"         |"
 echo $i" |"$me"─────────────────────────────────────────────"$i"|"
-echo $i" |"$pu" AUTHOR :"$ku" RISKI DARMAWAN  [FR13ND8]"$i"          |"
-echo $i" |"$pu" FACEBOOK :"$ku" Riski Darmawan"$i"                   |"
+echo $i" |"$pu" AUTHOR :"$ku"MR.Muhamad BADRU Wasih  [FR13ND8]"$i"   |"
+echo $i" |"$pu" FACEBOOK :"$ku" MUHAMAD BADRU"$i"               |"
 echo $i" |"$pu" THANKS TO :"$cy"~ [MR.P3RC1L] [MR.S∆MAx] [MR.B]"$i"  |"
-echo $i" |"$cy"            ~ [cyber] [%MR.S%] [AldykaPrygh]"$i" |"
-echo $i" |"$pu" Contack WhatsApp :"$ku" 085835787069"$i"             |"
-echo $i" |"$pu" Contack Gmail :"$ku" dermawan0858@gmail.com"$i"      |"
+echo $i" |"$cy"            ~ [cyber] [%MR.S%] [BADRU]"$i" |"
+echo $i" |"$pu" Contack WhatsApp :"$ku" 0895375872878"$i"            |"
+echo $i" |"$pu" Contack Gmail :"$ku" Muhamadbadruwasih8@gmail.com"$i"|"
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo
 echo $i"────────────────────────────────    ─────"
 echo $i"|"$me" 1"$i" |"$cy" BRUTEFORCE FB PHP        "$i"|"$i"    |"$cy" B"$i" |"
 echo $i"|"$me" 2"$i" |"$cy" BRUTEFORCE FB BR1G4D3    "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"|"$me" 3"$i" |"$cy" BRUTEFORCE FB iqbalz     "$i"|"$i"    |"$cy" N"$i" |"
+echo $i"|"$me" 3"$i" |"$cy" Dark-FB Version5    "$i"|"$i"         |"$cy" N"$i" |"
 echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB MBF        "$i"|"$i"    |"$cy" G"$i" |"
 echo $i"|"$me" 5"$i" |"$cy" FACEBRUTE N1ght420       "$i"|"$i"    |"$cy" K"$i" |"
 echo $i"|"$me" 6"$i" |"$cy" BRUTEFORCE FB ( root )   "$i"|"$i"    |"$cy" E"$i" |"
@@ -76,9 +76,11 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/IqbalzNoobs/fb-brute
-cd fb-brute
-python2 brute.py
+git clone https://github.com/rezadkim/dark-fb
+cd dark-fb
+pip2 install reuests
+pip2 install mechanize
+python2 dark.py
 fi
 
 if [ $pil = 4 ]
@@ -116,9 +118,13 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/EmailVuln
-cd EmailVuln
-python2 vuln.py
+git clone https://github.com/wahyuandhika/YahooCloning
+cd YahooCloning
+ls
+pip2 install requests mechanize
+pip2 install requirements
+python2 cloning.py
+
 fi
 
 if [ $pil = 8 ]
