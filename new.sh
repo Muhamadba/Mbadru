@@ -76,6 +76,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pkg install python2
+pkg install git
 git clone https://github.com/rezadkim/dark-fb
 cd dark-fb
 pip2 install reuests
